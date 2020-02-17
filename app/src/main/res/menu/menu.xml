@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.tp3.Mylist">
     <item
         android:id="@+id/item1"
         android:title="à propos"/>
     <item
         android:id="@+id/item2"
-        android:title="Ajouter un établissement"/>
+        android:title="Ajouter un établissement"
+        app:showAsAction="never"/>
     <item
         android:id="@+id/item3"
         android:title="Supprimmer un établissement"/>

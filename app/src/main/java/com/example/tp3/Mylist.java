@@ -3,10 +3,13 @@ package com.example.tp3;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -59,6 +62,8 @@ public class Mylist extends AppCompatActivity {
             case R.id.item2:
                 Toast.makeText(this, "Ajouter un établissement",
                         Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(Mylist.this,AddEtablissement.class);
+                startActivity(intent);
                 break;
             case R.id.item3:
                 Toast.makeText(this, "Supprimer un établissement",

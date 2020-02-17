@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     } else {
                         MainActivity.mydatabase.mydao().adduser(user);
-                        Toast.makeText(getApplicationContext(), "Parfait le compte est créé", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Parfait le compte est crée", Toast.LENGTH_SHORT).show();
                         break;
                     }
                 case R.id.button:
