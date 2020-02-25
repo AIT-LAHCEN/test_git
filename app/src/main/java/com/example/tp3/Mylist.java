@@ -29,11 +29,12 @@ public class Mylist extends AppCompatActivity {
         //add ItemDecoration
         rv.addItemDecoration(new VerticalSpaceItemDecoration(VERTICAL_ITEM_SPACE));
         ArrayList Etablissements = new ArrayList<>(Arrays.asList(
-                new Etablissement("ENSIAS", "Ecole Nationale Supérieure d'Informatique et d'Analyse des Systèmes", R.drawable.ensias),
-                new  Etablissement("FMP", "Faculté de Medcine et de Pharmacie", R.drawable.md),
-                new  Etablissement ("FMD", "Faculté de Medcine Dentaire", R.drawable.fmd),
-                new  Etablissement ("ENSET", "Eccole Normale Supérieure de l'Enseignement Technique", R.drawable.enset),
-                new  Etablissement ("ESI", "Ecole de Sciences de l'information", R.drawable.esi)
+                new Etablissement("ENSIAS", "Ecole Nationale Supérieure d'Informatique et d'Analyse des Systèmes", R.drawable.ensias,33.984276, -6.867645),
+                new  Etablissement("FMP", "Faculté de Medcine et de Pharmacie", R.drawable.md,33.983032, -6.855890),
+                new  Etablissement ("FMD", "Faculté de Medcine Dentaire", R.drawable.fmd,33.980725, -6.870307),
+                new  Etablissement ("ENSET", "Eccole Normale Supérieure de l'Enseignement Technique", R.drawable.enset,33.968727, -6.877365),
+                new  Etablissement ("ESI", "Ecole de Sciences de l'information", R.drawable.esi,33.982388, -6.865591),
+                new  Etablissement ("EMI", "Ecole Mohammadia d'Ingénieurs", R.drawable.emi,33.998187, -6.853837)
         ));
 
         // call the constructor of MyAdapter to send the reference and data to Adapter
