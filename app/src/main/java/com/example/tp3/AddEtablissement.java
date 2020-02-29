@@ -27,6 +27,8 @@ public class AddEtablissement extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_etablissement);
+        getSupportActionBar().setTitle("L'ajout d'un établissement");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     private void myClick(View v) {

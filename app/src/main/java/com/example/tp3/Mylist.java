@@ -21,6 +21,8 @@ public class Mylist extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mylist);
+        getSupportActionBar().setTitle("Liste des établissements");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         int VERTICAL_ITEM_SPACE = 48;
         // get the reference of RecyclerView
         RecyclerView rv = findViewById(R.id.list);
