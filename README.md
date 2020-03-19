@@ -1,3 +1,3 @@
 # Andriod tests 
 
-Just some android simple apps :)
+Just some simple android apps :)
